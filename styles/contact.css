@@ -38,3 +38,25 @@
 .contact form .btn {
   margin-top: 2rem;
 }
+
+.alert-box {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-color);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid var(--main-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+}
+
+.alert-box p {
+  font-size: 3rem;
+  text-align: center;
+}
