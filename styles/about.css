@@ -14,6 +14,10 @@
   text-shadow: 0 0 50px var(--main-color);
 }
 
+.about h5 {
+  font-size: 3.5rem;
+}
+
 .about-img {
   border-radius: 50%;
 }
@@ -50,6 +54,7 @@
 .about-content p {
   font-size: 2rem;
   margin: 2rem 0 3rem;
+  max-width: 900px;
 }
 
 ::-webkit-scrollbar {
