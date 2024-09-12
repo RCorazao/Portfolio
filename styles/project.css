@@ -57,11 +57,20 @@
   color: white;
 }
 
-.project-info a {
+.project-link a {
   font-size: 1.2rem;
-  margin-top: 24px;
+  margin: 12px 0;
   color: #007bff;
   text-decoration: none;
+  width: 200px;
+}
+
+.project-info .project-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .project-info a:hover {
