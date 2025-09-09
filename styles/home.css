@@ -116,7 +116,7 @@ span {
 }
 
 .text-animation span::before {
-  content: 'Desarrollador Web';
+  content: 'Desarrollador FullStack';
   color: var(--main-color);
 }
 
